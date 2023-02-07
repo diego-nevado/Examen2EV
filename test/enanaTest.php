@@ -27,7 +27,7 @@ class EnanaTest extends TestCase {
         $enana = new Enana("Enana 2", 20, "viva");
         $enana->heridaLeve();
     
-        $this->assertLessThan(0, $enana->puntosVida);
+        $this->assertTrue($enana->puntosVida < 0);
         $this->assertEquals("muerta", $enana->situacion);
     }
 
