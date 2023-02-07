@@ -7,6 +7,7 @@ class Enana
     public $situacion; #La enana estará 'viva', 'muerta' o 'limbo', dependiendo de sus puntos de vida. >0 = viva;
                         #<0 = muerta; =0 = limbo
 
+                        
     public function __construct($a1,$a2,$a3)
     {
         $this->nombre=$a1;
@@ -54,7 +55,7 @@ class Enana
         
         $this->puntosVida = 50;
         $this->situacion = 'viva';
-        
+
     }
 }
 ?>
