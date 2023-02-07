@@ -1,0 +1,9 @@
+name: ENANA
+
+on: [push]
+
+jobs:
+  ci:
+  
+  cd:
+
