@@ -49,7 +49,7 @@ class EnanaTest extends TestCase {
 
         $enana = new Enana("Enana 4", -5, "muerta");
         $enana->pocima();
-        $this->assertGreaterThan(0, $enana->puntosVida);
+        $this->assertTrue($enana->puntosVida > 0);
         $this->assertEquals("viva", $enana->situacion);
 
     }
